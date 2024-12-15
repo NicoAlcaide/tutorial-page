@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+app-sidebar {
+  width: 20%;
+  background-color: #f1f1f1;
+  padding: 15px;
+}
+
+app-content {
+  width: 80%;
+  padding: 15px;
+}
